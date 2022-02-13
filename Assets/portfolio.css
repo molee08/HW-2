@@ -84,11 +84,21 @@ main {
     width: 300px;
     overflow: auto;
     resize: vertical;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .About p {
     overflow: auto;
     resize: vertical;
+    overflow: auto;
+    resize: vertical;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -189,4 +199,24 @@ footer {
     .About, .Work, .Contact, .Resume {
         flex-direction: column;
     }
-   
+}
+
+
+@media screen and (max-width: 1022px) {
+    main {
+        flex-direction: column;
+    }
+    .About, .Work, .Contact, .Resume {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 1500x) {
+    main {
+        flex-direction: column;
+    }
+    .About, .Work, .Contact, .Resume {
+        flex-direction: column;
+    }
+}
