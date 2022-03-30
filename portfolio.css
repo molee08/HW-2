@@ -106,7 +106,7 @@ main {
 #Work {
     position: relative;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-around;
     flex-wrap: wrap;   
     width: 99%;
@@ -124,16 +124,17 @@ main {
     border: 1px solid black;
     align-items: center;
     text-align: center;
-    flex: 1 2 1em;
-    object-fit: cover;
+    /* flex: 1 2 1em; */
+    /* object-fit: cover;
     overflow: hidden;
-    float: left;
+    float: left; */
     height: 400px;
 }
 
 #horiseon {
-    width: 30px;
-    height: 30px;
+   max-width: 100%;
+   max-height: 100%;
+   display: block;
 }
 
 #work2 {
@@ -142,11 +143,17 @@ main {
     border: 1px solid black;
     align-items: center;
     text-align: center;
-    flex: 1 2 1em;
-    object-fit: cover;
+    /* flex: 1 2 1em; */
+    /* object-fit: cover;
     overflow: hidden;
-    float: left;
+    float: left; */
     height: 400px;
+}
+
+#project1 {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 
 #work3 {
