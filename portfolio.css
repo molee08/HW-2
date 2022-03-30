@@ -131,6 +131,11 @@ main {
     height: 400px;
 }
 
+#horiseon {
+    width: 30px;
+    height: 30px;
+}
+
 #work2 {
     display: block;
     position: relative;
