@@ -64,7 +64,7 @@ main {
     margin: 20px; */
     flex: 1 2 400px;
 }
-.About {
+#About {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -103,7 +103,7 @@ main {
 
 
 
-.Work {
+#Work {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -131,8 +131,8 @@ main {
     height: 400px;
 }
 
-.Work p {
-    /* display: ; */
+#work2 {
+    display: block;
     position: relative;
     border: 1px solid black;
     align-items: center;
@@ -141,10 +141,38 @@ main {
     object-fit: cover;
     overflow: hidden;
     float: left;
-    
+    height: 400px;
 }
 
-.Contact {
+#work3 {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    flex: 1 2 1em;
+    object-fit: cover;
+    overflow: hidden;
+    float: left;
+    height: 400px;
+}
+
+#work4 {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    flex: 1 2 1em;
+    object-fit: cover;
+    overflow: hidden;
+    float: left;
+    height: 400px;
+}
+
+
+
+#Contact {
     position: relative;
     display: flex;
     flex-direction: row;
