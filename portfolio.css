@@ -106,7 +106,7 @@ main {
 #Work {
     position: relative;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: block;
     justify-content: space-around;
     flex-wrap: wrap;   
     width: 99%;
